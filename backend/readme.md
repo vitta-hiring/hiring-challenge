@@ -163,7 +163,7 @@ Here comes the best part!
 #### Get status of a square
 
 ```
-GET /square/:x/:y
+GET /squares/:x/:y
 ```
 
 And we will get the response
@@ -186,7 +186,7 @@ We can get the errors:
 ### Throw paint on it!
 
 ```
-PATCH /square/:x/:y/paint
+PATCH /squares/:x/:y/paint
 ```
 
 And we will get the response
