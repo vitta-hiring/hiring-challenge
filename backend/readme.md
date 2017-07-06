@@ -5,6 +5,21 @@
 
 *Go as far as you can following step-by-step.*
 
+
+
+---
+
+| Before you start |
+| :---: |
+| You may develop on Java, Node.js or PHP. Please use at least an well known comunity MVC for your solution. Yeap, we are talking about Laravel, Spring, etc... |
+| We expect that your solution will contain the best of your code! |
+| Infrastructure upgrades are not obligatory, just may show your knowledge |
+| Do not miss any point, read all content of this file! |
+
+---
+
+
+
 We have a really [special map](https://en.wikipedia.org/wiki/Squaring_the_square) that is a square shape of squares.
 
 <img src="map.png" width="416"/>
@@ -15,13 +30,11 @@ Each territory is divided on 1x1 squares, and they are all paintable.
 
 We are going to build the needed infrastructure and services, come with us!
 
-Do not miss any point, read all content of this file!
-
 
 
 ---
 
-| Infrastructure Update: *Docker, for real* |
+| Infrastructure 1.0: *Docker, for real* |
 | :---: |
 | This challenge was created on 2017, if you still dont use docker for prototyping, some habbits needs to change! |
 | Read the docs about `docker` and `docker-compose`. |
@@ -146,7 +159,7 @@ We can get the error:
 
 ---
 
-| Infrastructure Update: *Lets secure a bit* |
+| Infrastructure 2.0 Update: *Lets secure it a bit* |
 | :---: |
 | Create a reverse-proxy service to separate de requests from the server. Make it listen to the port `80` and your application at `8888`. 
 | Take a chance to read and implement stuff like those written here: https://poweruphosting.com/blog/secure-nginx-server/ |
@@ -240,7 +253,7 @@ We can get the error:
 
 ---
 
-| Infrastructure Update: *Load balance that server sir!* |
+| Infrastructure 3.0 Update: *Load balance that server sir!* |
 | :---: |
 | Comment the proxy-reverse solution and lets build an even more interesting infrastructure.  |
 | Add a service to be our load balancer, we normally use `nginx` or `haproxy`! Duplicate the server service in our `docker-compose.yml`, assign them different ips and list them on your load balancer's config file! |
@@ -266,3 +279,12 @@ Make your application responde to the route `/dashboard` an HTML that contains:
 - List of last 5 painted squares;
 - List of last 5 errors;
 - % of whole map painted;
+
+
+
+## 4. Final dots
+
+Addons that may differ you from other candidates:
+- Test Automation
+- Domain Driven Design
+- Serverless architecture
