@@ -84,7 +84,7 @@ And we will get the response
 }
 ```
 
-But if it occours to already exists another territory overlapping this new territory area, we cannot allow that to happen!
+But if it occours to already exist another territory overlapping this new territory area, we cannot allow that to happen!
 
 We can get the errors:
 
