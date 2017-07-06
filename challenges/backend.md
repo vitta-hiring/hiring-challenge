@@ -5,5 +5,5 @@
 
 We live in a square of squares city.
 
-<img src="../../citymap.png" />
+<img src="../../assets/citymap.png" />
 
