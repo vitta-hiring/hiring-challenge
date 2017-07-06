@@ -3,6 +3,8 @@
 
 # Back-End Challenge
 
+*Go as far as you can following step-by-step.*
+
 We have a really [special map](https://en.wikipedia.org/wiki/Squaring_the_square) that is a square shape of squares.
 
 <img src="map.png" width="416"/>
@@ -19,9 +21,8 @@ Do not miss any point, read all content of this file!
 
 ---
 
-| Infrastructure Update |
+| Infrastructure Update: *Docker, for real* |
 | :---: |
-| *Docker, for real* |
 | This challenge was created on 2017, if you still dont use docker for prototyping, some habbits needs to change! |
 | Read the docs about `docker` and `docker-compose`. |
 | Make a `docker-compose.yml` and add the services you need. Probably you will need at least 2 of them: a server and a database. |
@@ -68,6 +69,13 @@ And we will get the response
 }
 ```
 
+But if it occours to already exists another territory overlapping this new territory area, we cannot allow that to happen!
+
+We can get the errors:
+
+- `territories/territory-overlay`: this new territory overlays another territory.
+- `territories/incomplete-data`: if it misses the `start`, `end` or `name` fields!
+
 ### To return the list of all territories
 
 ```
@@ -106,6 +114,10 @@ And we will get the response
 }
 ```
 
+We can get the error:
+
+- `territories/not-found`: this territory was not found.
+
 ### Get data from a single territory
 
 ```
@@ -128,12 +140,17 @@ And we will get the response
 }
 ```
 
+We can get the error:
+
+- `territories/not-found`: this territory was not found.
 
 ---
 
-| Infrastructure Update |
+| Infrastructure Update: *Lets secure a bit* |
 | :---: |
-| Create a reverse-proxy service to separate de requests from the server. Make it listen to the port `80` and your application at `8888`. We recomend `nginx` or `haproxy` for this step. Do not forget to keep their config file on your repository somehow. |
+| Create a reverse-proxy service to separate de requests from the server. Make it listen to the port `80` and your application at `8888`. 
+| Take a chance to read and implement stuff like those written here: https://poweruphosting.com/blog/secure-nginx-server/ |
+| We recomend `nginx` or `haproxy` for this step. Do not forget to keep their config file on your repository somehow. |
 
 ---
 
@@ -153,11 +170,18 @@ And we will get the response
 
 ```json
 {
-  "x": 1,
-  "y": 2,
-  "painted": false // or true
+  "data": {
+    "x": 1,
+    "y": 2,
+    "painted": false  
+  },
+  "error": false
 }
 ```
+
+We can get the errors:
+
+- `squares/not-found`: this square does not belongs to any territory.
 
 ### Throw paint on it!
 
@@ -169,16 +193,23 @@ And we will get the response
 
 ```json
 {
-  "x": 1,
-  "y": 2,
-  "painted": true // or false
+  data: {
+    "x": 1,
+    "y": 2,
+    "painted": true
+  },
+  "error": false
 }
 ```
+
+We can get the errors:
+
+- `squares/not-found`: this square does not belongs to any territory.
 
 ### List all painted squares of a territory 
 
 ```
-GET /territory/:x ? withpainted={false|true}
+GET /territory/:id ? withpainted={false|true}
 ```
 
 And we will get the response
@@ -201,14 +232,19 @@ And we will get the response
 }
 ```
 
+We can get the error:
+
+- `territories/not-found`: this territory was not found.
+
 
 
 ---
 
-| Infrastructure Update |
+| Infrastructure Update: *Load balance that server sir!* |
 | :---: |
 | Comment the proxy-reverse solution and lets build an even more interesting infrastructure.  |
-| Add a service to be our load balancer, we normally use `haproxy`! Duplicate the server service in our `docker-compose.yml`, assign them different ips and list them on `haproxy` config file (if you used it)! |
+| Add a service to be our load balancer, we normally use `nginx` or `haproxy`! Duplicate the server service in our `docker-compose.yml`, assign them different ips and list them on your load balancer's config file! |
+| Take a chance to read http://nginx.org/en/docs/http/load_balancing.html |
 
 ---
 
@@ -216,6 +252,14 @@ And we will get the response
 
 ## 3. We need a dashboard
 
-**Regardless the infrastructure you create, your solution must answer next questions by command line, a special route or using the proposal below.**
+---
 
-### List of territories ordered by **most painted area**
+**Important:** Regardless the infrastructure you create, your solution must answer all of the questions below by command line, a special route or using the following proposal.
+
+---
+
+Now are are going to make ow solution interact with us!
+
+- List of territories ordered by **most painted area**;
+- List of last 5 painted squares;
+- List of last 5 errors;
