@@ -263,3 +263,4 @@ Now are are going to make ow solution interact with us!
 - List of territories ordered by **most painted area**;
 - List of last 5 painted squares;
 - List of last 5 errors;
+- % of whole map painted;
