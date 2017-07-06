@@ -12,7 +12,7 @@ You can get to know more about us [following our blog](https://blog.vitta.me/) (
 
 Choose your challenge below
 
-- [Back-End](backend.md)
+- [Back-End](challenges/backend.md)
 - Front-End (coming soon)
 - Infrastructure (coming soon)
 
@@ -20,5 +20,5 @@ Choose your challenge below
 
 Pretty simple!
 
-1. Save your solution on a public Github repository as `desafio-vitta`;
+1. Save your solution on a public `Github` repository as `desafio-vitta`;
 1. Send an e-mail to `filipe.forattini@vitta.me` with the link to the repository;
