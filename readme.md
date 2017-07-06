@@ -12,7 +12,7 @@ You can get to know more about us [following our blog](https://blog.vitta.me/) (
 
 Your solution will be the mirror of your professional and academic carrer, please care to make it worth!
 
-- Try always to develop your solutions using the last versions of each technology;
+- Try always to develop your solutions using the latest versions of each technology;
 - Your goal is to show how good you are with:
     - Design patterns like singleton, factory, strategy, mediator;
     - Reuse of code and packages;

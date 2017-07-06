@@ -3,7 +3,7 @@
 
 # Back-End Challenge
 
-*Go as far as you can following step-by-step.*
+*Go as far as you can. Follow step-by-step.*
 
 
 
@@ -11,7 +11,7 @@
 
 | Before you start |
 | :---: |
-| You may develop on Java, Node.js or PHP. Please use at least an well known comunity MVC for your solution. Yeap, we are talking about Laravel, Spring, etc... |
+| You may develop on Java, Node.js or PHP. Please use at least a well known comunity MVC for your solution. Yeap, we are talking about Laravel, Spring, etc... |
 | We expect that your solution will contain the best of your code! |
 | Infrastructure upgrades are not obligatory, but we take really seriously your maturity with development environments! |
 | Do not miss any point, read all content of this file! |
@@ -27,6 +27,8 @@ We have a really [special map](https://en.wikipedia.org/wiki/Squaring_the_square
 Each one of those squares we will consider a territory. This pic above shows a special setup of the minimum quantity of non-repeatable-squared squares.
 
 Each territory is divided on 1x1 squares, and they are all paintable.
+
+Our goal is to paint
 
 We are going to build the needed infrastructure and services, come with us!
 
@@ -44,7 +46,7 @@ We are going to build the needed infrastructure and services, come with us!
 
 
 
-## 1. Build the territories API
+## 1. Lets create the territories builder API
 
 To start our project we need an API!
 
@@ -155,7 +157,9 @@ And we will get the response
 
 We can get the error:
 
-- `territories/not-found`: this territory was not found.
+- `territories/not-found`: this territory was not found. 
+
+
 
 ---
 
@@ -289,4 +293,4 @@ Addons that may differ you from other candidates:
 - Domain Driven Design
 - Serverless architecture
 
-Please consider the points above if applying for higher seniority positions!
+Please consider the points above in case of applying for higher seniority positions!
