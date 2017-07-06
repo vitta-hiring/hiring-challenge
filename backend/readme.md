@@ -193,7 +193,7 @@ And we will get the response
 
 ```json
 {
-  data: {
+  "data": {
     "x": 1,
     "y": 2,
     "painted": true
