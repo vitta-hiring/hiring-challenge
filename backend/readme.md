@@ -13,7 +13,7 @@
 | :---: |
 | You may develop on Java, Node.js or PHP. Please use at least an well known comunity MVC for your solution. Yeap, we are talking about Laravel, Spring, etc... |
 | We expect that your solution will contain the best of your code! |
-| Infrastructure upgrades are not obligatory, just may show your knowledge |
+| Infrastructure upgrades are not obligatory, but we take really seriously your maturity with development environments! |
 | Do not miss any point, read all content of this file! |
 
 ---
@@ -288,3 +288,5 @@ Addons that may differ you from other candidates:
 - Test Automation
 - Domain Driven Design
 - Serverless architecture
+
+Please consider the points above if applying for higher seniority positions!
