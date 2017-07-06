@@ -20,8 +20,8 @@ You may send:
 ```json
 {
   "name": "A",
-  "start": { "x": 0, "y": 0},
-  "end": { "x": 50, "y": 50}
+  "start": { "x": 0, "y": 0 },
+  "end": { "x": 50, "y": 50 }
 }
 ```
 
@@ -46,12 +46,12 @@ And we will get the response
     {
       "id": 1,
       "name": "A",
-      "start": { "x": 0, "y": 0},
-      "end": { "x": 50, "y": 50},
+      "start": { "x": 0, "y": 0 },
+      "end": { "x": 50, "y": 50 },
       "number_painted_squares": 2,
       "painted_squares": [
-        { "x": 1, "y": 2},
-        { "x": 2, "y": 2}
+        { "x": 1, "y": 2 },
+        { "x": 2, "y": 2 }
       ]
     }
   ]
@@ -76,12 +76,12 @@ And we will get the response
 {
   "id": 1,
   "name": "A",
-  "start": { "x": 0, "y": 0},
-  "end": { "x": 50, "y": 50},
+  "start": { "x": 0, "y": 0 },
+  "end": { "x": 50, "y": 50 },
   "number_painted_squares": 2,
   "painted_squares": [
-    { "x": 1, "y": 2},
-    { "x": 2, "y": 2}
+    { "x": 1, "y": 2 },
+    { "x": 2, "y": 2 }
   ]
 }
 ```
