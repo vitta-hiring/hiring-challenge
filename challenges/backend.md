@@ -3,11 +3,13 @@
 
 ## Back-End Challenge
 
-We have a really [special map](https://en.wikipedia.org/wiki/Squaring_the_square) that is a square shape of squares. Each one of those squares we will consider a territory. 
-
-Each territory is divided on squares of 1x1 that are paintable.
+We have a really [special map](https://en.wikipedia.org/wiki/Squaring_the_square) that is a square shape of squares.
+ 
+Each one of those squares we will consider a territory. This pics show a special setup of the minimum quantity of squared squares.
 
 <img src="map.png" width="416"/>
+
+Each territory is divided on 1x1 squares that are paintable.
 
 ### 1. Build the territories API
 
