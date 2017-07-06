@@ -260,6 +260,8 @@ We can get the error:
 
 Now are are going to make ow solution interact with us!
 
+Make your application responde to the route `/dashboard` an HTML that contains:
+
 - List of territories ordered by **most painted area**;
 - List of last 5 painted squares;
 - List of last 5 errors;
