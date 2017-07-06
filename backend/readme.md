@@ -4,12 +4,12 @@
 ## Back-End Challenge
 
 We have a really [special map](https://en.wikipedia.org/wiki/Squaring_the_square) that is a square shape of squares.
- 
-Each one of those squares we will consider a territory. This pics show a special setup of the minimum quantity of squared squares.
 
 <img src="map.png" width="416"/>
 
-Each territory is divided on 1x1 squares that are paintable.
+Each one of those squares we will consider a territory. This pic above shows a special setup of the minimum quantity of non-repeatable-squared squares.
+
+Each territory is divided on 1x1 squares, and they are all paintable.
 
 ### 1. Build the territories API
 
@@ -48,11 +48,8 @@ And we will get the response
       "name": "A",
       "start": { "x": 0, "y": 0 },
       "end": { "x": 50, "y": 50 },
-      "number_painted_squares": 2,
-      "painted_squares": [
-        { "x": 1, "y": 2 },
-        { "x": 2, "y": 2 }
-      ]
+      "area": 2500,
+      "painted_area": 2
     }
   ]
 }
@@ -86,7 +83,7 @@ And we will get the response
 }
 ```
 
-### 2. Painting a territory
+### 2. Make it possible to paint a territory
 
 #### Get status of a square
 
@@ -104,7 +101,7 @@ And we will get the response
 }
 ```
 
-#### Throw paint at it!
+#### Throw paint on it!
 
 ```
 PATCH /square/:x/:y/paint
