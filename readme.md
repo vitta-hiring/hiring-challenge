@@ -1,4 +1,4 @@
-<img src="assets/logo_black.png"/>
+<img src="logo_black.png"/>
 
 ## Vitta Hiring Challenges
 
