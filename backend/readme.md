@@ -11,10 +11,10 @@
 
 | Before you start |
 | :---: |
-| You may develop on Java, Node.js or PHP. Please use at least a well known comunity MVC for your solution. Yeap, we are talking about Laravel, Spring, etc... |
+| You may develop on Java, Node.js or PHP. Please use at least a well known comunity MVC for your solution. Yeap, we are talking about Laravel, Spring, Adonis, etc... |
 | We expect that your solution will contain the best of your code! |
 | Infrastructure upgrades are not obligatory, but we take really seriously your maturity with development environments! |
-| Do not miss any point, read all content of this file! |
+| Do not miss any point, read all content of this file! Make your application answer [those questions](#3-we-need-a-dashboard)! |
 
 ---
 
