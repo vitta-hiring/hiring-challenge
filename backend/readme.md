@@ -28,7 +28,7 @@ Each one of those squares we will consider a territory. This pic above shows a s
 
 Each territory is divided on 1x1 squares, and they are all paintable.
 
-Our goal is to paint
+Our goal is to paint answer some [questions at the end](#3-we-need-a-dashboard)!
 
 We are going to build the needed infrastructure and services, come with us!
 
@@ -280,9 +280,10 @@ Now are are going to make ow solution interact with us!
 Make your application responde to the route `/dashboard` an HTML that contains:
 
 - List of territories ordered by **most painted area**;
+- List of territories ordered by **most proportional painted area**;
 - List of last 5 painted squares;
 - List of last 5 errors;
-- % of whole map painted;
+- (Painted area / total area) from all territories' areas summed;
 
 
 
