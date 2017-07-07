@@ -198,7 +198,7 @@ And we will get the response
 
 We can get the errors:
 
-- `squares/not-found`: this square does not belongs to any territory.
+- `squares/not-found`: this square does not belong to any territory.
 
 ### Throw paint on it!
 
@@ -221,7 +221,7 @@ And we will get the response
 
 We can get the errors:
 
-- `squares/not-found`: this square does not belongs to any territory.
+- `squares/not-found`: this square does not belong to any territory.
 
 ### List all painted squares of a territory 
 
@@ -286,7 +286,7 @@ Make your application responde to the route `/dashboard` an HTML that contains:
 
 
 
-## 4. Final dots
+## 4. Final strokes
 
 Addons that may differ you from other candidates:
 - Test Automation
