@@ -275,15 +275,17 @@ We can get the error:
 
 ---
 
-Now are are going to make ow solution interact with us!
+Now are are going to make your solution interact with us! We will trigger a set of requests to generate the first map and paint it exploring strategic areas.
 
-Make your application responde to the route `/dashboard` an HTML that contains:
+But for that, we need a place where we can check the results!
+
+For this, make your application responde to the route `/dashboard` an HTML that contains:
 
 - List of territories ordered by **most painted area**;
 - List of territories ordered by **most proportional painted area**;
 - List of last 5 painted squares;
 - List of last 5 errors;
-- (Painted area / total area) from all territories' areas summed;
+- Painted area / total area (from all territories' areas);
 
 
 
