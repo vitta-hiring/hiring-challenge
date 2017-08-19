@@ -30,7 +30,7 @@ Your solution will be the mirror of your professional and academic carrer, pleas
 Choose your challenge below:
 
 - [Back-End](backend/readme.md)
-- [Front-End](frontend/readme.md)
+- [Front-End](frontend/desafio.pdf)
 - Infrastructure (coming soon)
 
 ### Delivering your solution
