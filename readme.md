@@ -1,14 +1,18 @@
 <img src="logo_black.png"/>
 
-## Vitta Hiring Challenge
+# Vitta Hiring Challenge
 
-Glad to meet you friend! Nice te meet you!
+Glad to meet you friend!
 
 We are more than happy to see you are interested on our challenge!
 
 You can get to know more about us [following our blog](https://blog.vitta.me/) (in pt-BR).
 
-### Worth reading
+## Open positions
+
+You can check them out following this link [jobs.lever.co/vitta](jobs.lever.co/vitta)!
+
+## Worth reading
 
 Your solution will be the mirror of your professional and academic carrer, please care to make it worth!
 
@@ -21,12 +25,12 @@ Your solution will be the mirror of your professional and academic carrer, pleas
 - If you are not sure, just do it;
 - Try always to make services as independent and separated as possible;
 
-### Challenges
+## Challenges
 
 Choose your challenge below:
 
 - [Back-End](backend/readme.md)
-- Front-End (coming soon)
+- [Front-End](frontend/readme.md)
 - Infrastructure (coming soon)
 
 ### Delivering your solution
